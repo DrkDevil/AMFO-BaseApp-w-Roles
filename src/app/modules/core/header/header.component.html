@@ -1,0 +1,5 @@
+<mat-toolbar>
+  <button mat-button routerLink="/home">Home</button>
+  <button mat-button *ngIf="auth.user$ | async as user; else login" routerLink="/profile">User Profile</button>
+  <button mat-button *ngIf="auth.user$ | async as user; else login" (click)="auth.signOut()">Sign Out</button>
+</mat-toolbar>
