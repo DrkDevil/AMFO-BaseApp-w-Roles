@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Install
-Download the project via github. Use your preferred terminal and go to the directory you downloaded the project files to.
+Download the project via github. Use your preferred terminal and go to the directory you downloaded the project files.
 
 Run `npm i` to install all dependencies.
 
@@ -26,7 +26,6 @@ export const environment = {
   }
 };
 ```
-
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

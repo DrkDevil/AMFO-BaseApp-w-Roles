@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBsSDg012L3YTWy-QBgLyb7riHPhTxCuo8",
-    authDomain: "project-bard.firebaseapp.com",
-    databaseURL: "https://project-bard.firebaseio.com",
-    projectId: "project-bard",
-    storageBucket: "project-bard.appspot.com",
-    messagingSenderId: "833224550472",
-    appId: "1:833224550472:web:4c6db7f53b94d3ad"
+    apiKey: "Your API Key",
+    authDomain: "Your Project Domain",
+    databaseURL: "Your Project URL",
+    projectId: "Your ProjectID",
+    storageBucket: "Your Storage Bucket",
+    messagingSenderId: "Your MessengerID",
+    appId: "Your AppID"
   }
 };
 
