@@ -27,5 +27,8 @@ export const environment = {
 };
 ```
 
+Make note that the app will not run properly until you have setup your firebase app in the console.
+Instructions for that coming soon. 
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
