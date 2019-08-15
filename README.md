@@ -8,5 +8,25 @@ Download the project via github. Use your preferred terminal and go to the direc
 
 Run `npm i` to install all dependencies.
 
+
+## Replace Firebase Account Info
+Open the environments.ts file in the environments folder and replace the following code with your firebase credentials.
+
+```javascript
+export const environment = {
+  production: false,
+  firebase: {
+    apiKey: "Your API Key",
+    authDomain: "Your Project Domain",
+    databaseURL: "Your Project URL",
+    projectId: "Your ProjectID",
+    storageBucket: "Your Storage Bucket",
+    messagingSenderId: "Your MessengerID",
+    appId: "Your AppID"
+  }
+};
+```
+
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
