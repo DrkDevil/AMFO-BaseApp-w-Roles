@@ -8,9 +8,13 @@ import { AuthService } from './../../modules/core/authentication/auth.service';
   encapsulation: ViewEncapsulation.None
 })
 export class UserProfileComponent implements OnInit {
-
   constructor(public auth: AuthService) {}
   ngOnInit() {
+   const body = document.getElementsByTagName('body')[0];
+   body.classList.add('profile');
   }
-
+  ngOnDestroy(): void {
+  const body = document.getElementsByTagName('body')[0];
+  body.classList.remove('profile');
+  }
 }

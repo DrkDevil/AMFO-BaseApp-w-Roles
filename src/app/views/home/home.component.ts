@@ -9,6 +9,12 @@ import { AuthService } from './../../modules/core/authentication/auth.service';
 })
 export class HomeComponent implements OnInit {
   constructor(public auth: AuthService) {}
-  ngOnInit() {
+  ngOnInit() :void {
+   const body = document.getElementsByTagName('body')[0];
+   body.classList.add('home');
+  }
+  ngOnDestroy(): void {
+  const body = document.getElementsByTagName('body')[0];
+  body.classList.remove('home');
   }
 }

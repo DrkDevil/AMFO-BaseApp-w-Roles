@@ -55,7 +55,7 @@ export class AuthService {
   }
 
   private updateUserData(user) {
-    this.router.navigate(['/profile']);
+    this.router.navigate(['/home']);
     // Sets user data to firestore on login
     const userRef: AngularFirestoreDocument<User> = this.afs.doc(`user/${user.uid}`);
     // Define data payload you want to save.

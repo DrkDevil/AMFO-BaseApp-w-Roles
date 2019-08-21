@@ -1,0 +1,8 @@
+body.home {
+  background-image: linear-gradient(to right top, #051937, #1b2844, #2e3752, #404860, #53596e);
+  .mat-toolbar-row, .mat-toolbar-single-row {
+      height: 64px;
+      background: transparent;
+  		color: white;
+  }
+}
