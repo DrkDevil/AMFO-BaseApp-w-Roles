@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyDTT6B51KV2OAs1KctbOY1BTwMFk4LIqfM",
-    authDomain: "cardbinder-digital.firebaseapp.com",
-    databaseURL: "https://cardbinder-digital.firebaseio.com",
-    projectId: "cardbinder-digital",
-    storageBucket: "",
-    messagingSenderId: "1009312219823",
-    appId: "1:1009312219823:web:2836d771afa16324"
+    apiKey: "Your API Key",
+    authDomain: "Your Project Domain",
+    databaseURL: "Your Project URL",
+    projectId: "Your ProjectID",
+    storageBucket: "Your Storage Bucket",
+    messagingSenderId: "Your MessengerID",
+    appId: "Your AppID"
   }
 };
 
